@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 18px;
+}
+a{
+  display: block;
+}
+
+.wrapper{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.breadcrumbs{
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.breadcrumbs__link{
+  padding: 10px 15px;
+}
+.content__wrapper{
+  text-align: center;
+}
+.resume-description{
+  max-width: 360px;
+  margin: 0 auto;
+  text-align: left;
+}
+.resume-description__list{
+  list-style: none;
+}
